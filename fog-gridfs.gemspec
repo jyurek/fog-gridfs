@@ -4,8 +4,8 @@ require File.expand_path('../lib/fog-gridfs/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Jon Yurek"]
   gem.email         = ["jyurek@thoughtbot.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Allows fog to use gridfs as a storage backend.}
+  gem.summary       = %q{gridfs for fog}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
